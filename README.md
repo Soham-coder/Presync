@@ -66,3 +66,11 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
        - [posit32hex.py](Posit_32_4/Utility/posit32hex.py)
        - [run.sh](Posit_32_4/Utility/run.sh)
    - [README.md](README.md)
+
+# Description of contents-
+```diff
++ RTL - contains design
++ Simulation - contains testbench and decimal results
++ Synthesis_logs - contains synthesis results of Synopsys DC in 45nm ASIC
++ Utility - contains Questasim 10.0b simulator run script and .py/.cpp file for conversion of posit<32,4> to decimal or IEEE32,64 to decimal
+```
