@@ -16,6 +16,7 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # Hardware
 
 • Hardware design of Synaptic AI accelerator by taking realtime accurate intra-neuronal parameters in floating point single & double precision and recently developed number system Posit 32 bit with 4 bit exponent size
+
 • Comparitive study of them in terms of accuracy, precision and sensitivity handling and economic footprint. The designs are pipelined to meet 1 Ghz frequency in 45nm ASIC with extensively optimised area and power
 
 # Directory Structure
