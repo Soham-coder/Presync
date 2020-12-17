@@ -19,7 +19,7 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
 
 # Directory Structure
 
--\\Pre\-Sync__
+- .
    - __Draft__
      - [NanoSys\_Draft.pdf](Draft/NanoSys_Draft.pdf)
    - __IEEE\_32__
