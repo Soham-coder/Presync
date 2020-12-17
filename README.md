@@ -19,7 +19,7 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
 
 # Directory Structure
 
-- __C:\\Users\\SOHAM\\Desktop\\Pre\-Sync__
+-\\Pre\-Sync__
    - __Draft__
      - [NanoSys\_Draft.pdf](Draft/NanoSys_Draft.pdf)
    - __IEEE\_32__
@@ -66,4 +66,3 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
        - [posit32hex.py](Posit_32_4/Utility/posit32hex.py)
        - [run.sh](Posit_32_4/Utility/run.sh)
    - [README.md](README.md)
-   - [txt](txt)
