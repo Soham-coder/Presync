@@ -72,11 +72,11 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
 + RTL - contains design
 + Simulation - contains testbench and decimal results
 + Synthesis_logs - contains synthesis results in Synopsys DC in 45nm ASIC
-+ Utility - contains Questasim 10.0b simulator run script and .py/.cpp file for conversion of posit<32,4> to decimal & IEEE32,64 to decimal
++ Utility - contains Questasim 10.0b simulator run script and *.py/*.cpp file for conversion of posit<32,4> to decimal & IEEE32,64 to decimal
 ```
 # Instruction to run-
 ```diff
-# 1) Run the shell script present in Utlity folder. It will compile + simulate RTL+TB and generate log file in Simulation folder. Will happen in Windows 32/64 in batch mode.
+# 1) Run the *.sh script present in Utlity folder. It will compile + simulate RTL+TB and generate log file in Simulation folder. Will run in Windows 32/64 bit OS in batch mode.
 ! Note- Change the Questasim executables(vlib, vlog, vsim) paths incase of Ubuntu or any Unix system to the respective paths where they get installed.
-# 2) Execute the .py/.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
+# 2) Execute the *.py/*.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
 ```
