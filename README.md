@@ -71,6 +71,6 @@ Hardware Modelling of Synaptic Accelerator by taking realtime most accurate para
 ```diff
 + RTL - contains design
 + Simulation - contains testbench and decimal results
-+ Synthesis_logs - contains synthesis results of Synopsys DC in 45nm ASIC
++ Synthesis_logs - contains synthesis results in Synopsys DC in 45nm ASIC
 + Utility - contains Questasim 10.0b simulator run script and .py/.cpp file for conversion of posit<32,4> to decimal & IEEE32,64 to decimal
 ```
