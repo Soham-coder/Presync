@@ -13,6 +13,6 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 + Index Terms—Neuromorphic computation, presynaptic region, neural networks, posit arithmetic
 ```
 
-#Hardware
+# Hardware
 
 Hardware Modelling of Synaptic Accelerator by taking realtime most accurate parameters consisting of several polynomial approximations in Floating point IEEE-754 32 bit & 64 bit format and recently developed Posit<32,4> format and making a comparitive study of them in terms of accuracy,precision and sensitivity handling and hardware cost.The designs are pipelined to meet 1 Ghz frequency in 45nm ASIC with low area and cost.
