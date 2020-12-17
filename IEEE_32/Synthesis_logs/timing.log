@@ -1,0 +1,116 @@
+Warning: Design 'top' has '10' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating graph... (UID-83)
+Warning: Design 'top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Updating design information... (UID-85)
+Warning: Design 'top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top
+Version: E-2010.12-SP4
+Date   : Sun Sep 27 14:18:29 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: gen_instance5/cd/counter_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_0_1ps)
+  Endpoint: gen_instance5/cd/counter_reg[14]
+            (rising edge-triggered flip-flop clocked by clk_0_1ps)
+  Path Group: clk_0_1ps
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_0_1ps (rise edge)                             0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  gen_instance5/cd/counter_reg[0]/CK (DFF_X1)             0.00 #     0.00 r
+  gen_instance5/cd/counter_reg[0]/Q (DFF_X1)              0.08       0.08 r
+  gen_instance5/cd/U8/ZN (AND2_X1)                        0.04       0.13 r
+  gen_instance5/cd/add_25_aco/A[0] (clk_div_THRESHOLD50000_DW01_inc_0)
+                                                          0.00       0.13 r
+  gen_instance5/cd/add_25_aco/U3/ZN (AND2_X1)             0.05       0.18 r
+  gen_instance5/cd/add_25_aco/U1_1_2/CO (HA_X1)           0.06       0.24 r
+  gen_instance5/cd/add_25_aco/U1_1_3/CO (HA_X1)           0.06       0.30 r
+  gen_instance5/cd/add_25_aco/U1_1_4/CO (HA_X1)           0.06       0.37 r
+  gen_instance5/cd/add_25_aco/U1_1_5/CO (HA_X1)           0.06       0.43 r
+  gen_instance5/cd/add_25_aco/U1_1_6/CO (HA_X1)           0.06       0.49 r
+  gen_instance5/cd/add_25_aco/U1_1_7/CO (HA_X1)           0.06       0.56 r
+  gen_instance5/cd/add_25_aco/U1_1_8/CO (HA_X1)           0.06       0.62 r
+  gen_instance5/cd/add_25_aco/U1_1_9/CO (HA_X1)           0.06       0.68 r
+  gen_instance5/cd/add_25_aco/U1_1_10/CO (HA_X1)          0.06       0.75 r
+  gen_instance5/cd/add_25_aco/U1_1_11/CO (HA_X1)          0.06       0.81 r
+  gen_instance5/cd/add_25_aco/U1_1_12/CO (HA_X1)          0.06       0.87 r
+  gen_instance5/cd/add_25_aco/U1_1_13/CO (HA_X1)          0.06       0.93 r
+  gen_instance5/cd/add_25_aco/U6/ZN (XNOR2_X1)            0.06       0.99 r
+  gen_instance5/cd/add_25_aco/SUM[14] (clk_div_THRESHOLD50000_DW01_inc_0)
+                                                          0.00       0.99 r
+  gen_instance5/cd/counter_reg[14]/D (DFF_X2)             0.01       1.00 r
+  data arrival time                                                  1.00
+
+  clock clk_0_1ps (rise edge)                             1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  gen_instance5/cd/counter_reg[14]/CK (DFF_X2)            0.00       1.00 r
+  library setup time                                     -0.03       0.97
+  data required time                                                 0.97
+  --------------------------------------------------------------------------
+  data required time                                                 0.97
+  data arrival time                                                 -1.00
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: reset (input port)
+  Endpoint: SynNeur1/PS1/N/D_reg[3]
+            (rising edge-triggered flip-flop)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  reset (in)                               0.00       0.00 f
+  SynNeur1/reset (MODEL)                   0.00       0.00 f
+  SynNeur1/U40/ZN (INV_X1)                 0.04       0.04 r
+  SynNeur1/U3/ZN (INV_X2)                  0.07       0.11 f
+  SynNeur1/PS1/reset4 (PreSynapse)         0.00       0.11 f
+  SynNeur1/PS1/N/reset (Neuro)             0.00       0.11 f
+  SynNeur1/PS1/N/U39/ZN (INV_X1)           0.15       0.26 r
+  SynNeur1/PS1/N/U270/ZN (NAND2_X1)        0.11       0.38 f
+  SynNeur1/PS1/N/U43/ZN (INV_X1)           0.08       0.45 r
+  SynNeur1/PS1/N/U4/Z (CLKBUF_X3)          0.08       0.53 r
+  SynNeur1/PS1/N/U3/ZN (NOR2_X2)           0.06       0.59 f
+  SynNeur1/PS1/N/U32/Z (BUF_X1)            0.06       0.65 f
+  SynNeur1/PS1/N/U31/ZN (INV_X1)           0.07       0.72 r
+  SynNeur1/PS1/N/U344/ZN (INV_X1)          0.05       0.78 f
+  SynNeur1/PS1/N/U14/Z (BUF_X1)            0.06       0.84 f
+  SynNeur1/PS1/N/U63/ZN (AOI221_X1)        0.10       0.94 r
+  SynNeur1/PS1/N/U62/ZN (INV_X1)           0.02       0.96 f
+  SynNeur1/PS1/N/D_reg[3]/D (DFF_X1)       0.01       0.97 f
+  data arrival time                                   0.97
+
+  max_delay                                1.00       1.00
+  library setup time                      -0.03       0.97
+  data required time                                  0.97
+  -----------------------------------------------------------
+  data required time                                  0.97
+  data arrival time                                  -0.97
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

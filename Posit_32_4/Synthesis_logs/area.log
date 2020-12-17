@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : area
+Design : top
+Version: E-2010.12-SP4
+Date   : Mon Sep 28 12:32:05 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/kanchi/a/araha/SNVRAM_project/NangateOpenCellLibrary/NangateOpenCellLibrary.db)
+
+Number of ports:                         1926
+Number of nets:                          1357
+Number of cells:                            5
+Number of combinational cells:              1
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          1
+Number of references:                       5
+
+Combinational area:       316098.972324
+Noncombinational area:    1409578.636878
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          1725677.609201
+Total area:                 undefined
+1

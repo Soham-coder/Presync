@@ -1,0 +1,31 @@
+Warning: Design 'top' has '10' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : top
+Version: E-2010.12-SP4
+Date   : Sun Sep 27 14:18:30 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/kanchi/a/araha/SNVRAM_project/NangateOpenCellLibrary/NangateOpenCellLibrary.db)
+
+Number of ports:                         2085
+Number of nets:                          1581
+Number of cells:                            5
+Number of combinational cells:              1
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          1
+Number of references:                       5
+
+Combinational area:       131694.737406
+Noncombinational area:    625541.803311
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          757236.540717
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

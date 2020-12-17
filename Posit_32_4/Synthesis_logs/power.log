@@ -1,0 +1,40 @@
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : top
+Version: E-2010.12-SP4
+Date   : Mon Sep 28 12:34:47 2020
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/kanchi/a/araha/SNVRAM_project/NangateOpenCellLibrary/NangateOpenCellLibrary.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   2.1471  W  (100%)
+  Net Switching Power  = 895.9294 uW    (0%)
+                         ---------
+Total Dynamic Power    =   2.1480  W  (100%)
+
+Cell Leakage Power     =  29.8207 mW
+
+1
