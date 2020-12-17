@@ -16,3 +16,56 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # Hardware
 
 Hardware Modelling of Synaptic Accelerator by taking realtime most accurate parameters consisting of several polynomial approximations in Floating point IEEE-754 32 bit & 64 bit format and recently developed Posit<32,4> format and making a comparitive study of them in terms of accuracy,precision and sensitivity handling and hardware cost.The designs are pipelined to meet 1 Ghz frequency in 45nm ASIC with low area and cost.
+
+# Directory Structure
+
+-
+   - __Draft__
+     - [NanoSys\_Draft.pdf](Draft/NanoSys_Draft.pdf)
+   - __IEEE\_32__
+     - __RTL__
+       - [IEEE32\_design.sv](IEEE_32/RTL/IEEE32_design.sv)
+     - __Simulation__
+       - [IEEE32\_tb.sv](IEEE_32/Simulation/IEEE32_tb.sv)
+       - [result.txt](IEEE_32/Simulation/result.txt)
+     - __Synthesis\_logs__
+       - [area.log](IEEE_32/Synthesis_logs/area.log)
+       - [power.log](IEEE_32/Synthesis_logs/power.log)
+       - [powerhier.log](IEEE_32/Synthesis_logs/powerhier.log)
+       - [timing.log](IEEE_32/Synthesis_logs/timing.log)
+     - __Utility__
+       - [bin\_2\_dec.cpp](IEEE_32/Utility/bin_2_dec.cpp)
+       - [run.sh](IEEE_32/Utility/run.sh)
+   - __IEEE\_64__
+     - __RTL__
+       - [IEEE64\_design.sv](IEEE_64/RTL/IEEE64_design.sv)
+     - __Simulation__
+       - [IEEE64\_tb.sv](IEEE_64/Simulation/IEEE64_tb.sv)
+       - [res\_64\_dec.csv](IEEE_64/Simulation/res_64_dec.csv)
+     - __Synthesis\_logs__
+       - [area.log](IEEE_64/Synthesis_logs/area.log)
+       - [power.log](IEEE_64/Synthesis_logs/power.log)
+       - [powerhier.log](IEEE_64/Synthesis_logs/powerhier.log)
+       - [timing.log](IEEE_64/Synthesis_logs/timing.log)
+     - __Utility__
+       - [float64\_to\_dec.py](IEEE_64/Utility/float64_to_dec.py)
+       - [run.sh](IEEE_64/Utility/run.sh)
+   - __Posit\_32\_4__
+     - __RTL__
+       - [design\_posit.sv](Posit_32_4/RTL/design_posit.sv)
+     - __Simulation__
+       - [log\_posit.txt](Posit_32_4/Simulation/log_posit.txt)
+       - [result\_decimal.csv](Posit_32_4/Simulation/result_decimal.csv)
+       - [testbench\_posit.sv](Posit_32_4/Simulation/testbench_posit.sv)
+     - __Synthesis\_logs__
+       - [area.log](Posit_32_4/Synthesis_logs/area.log)
+       - [power.log](Posit_32_4/Synthesis_logs/power.log)
+       - [powerhier.log](Posit_32_4/Synthesis_logs/powerhier.log)
+       - [timing.log](Posit_32_4/Synthesis_logs/timing.log)
+     - __Utility__
+       - [posit32hex.py](Posit_32_4/Utility/posit32hex.py)
+       - [run.sh](Posit_32_4/Utility/run.sh)
+   - [README.md](README.md)
+   - [txt](txt)
+
+
