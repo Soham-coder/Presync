@@ -21,6 +21,10 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 
 # Directory Structure
 
+<details><summary><tt> Directory structure </tt></summary>
+<p>
+
+```prompt
 - .
    - __Draft__
      - [NanoSys\_Draft.pdf](Draft/NanoSys_Draft.pdf)
@@ -68,6 +72,9 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
        - [posit32hex.py](Posit_32_4/Utility/posit32hex.py)
        - [run.sh](Posit_32_4/Utility/run.sh)
    - [README.md](README.md)
+```
+</p>
+</details>
 
 # Description of contents-
 ```diff
