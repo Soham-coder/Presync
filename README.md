@@ -1,5 +1,7 @@
 # Presync
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Soham-coder-Presync)
+
 # Title
 PreSyNC: Hardware realization of the Presynaptic Region of a Biologically Extensive Neuronal Circuitry
 
