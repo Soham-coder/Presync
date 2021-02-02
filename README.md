@@ -17,9 +17,8 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 
 # Hardware
 
-• Hardware design of Synaptic AI accelerator by taking realtime accurate intra-neuronal parameters in floating point single & double precision and recently developed number system Posit 32 bit with 4 bit exponent size
-
-• Comparitive study of them in terms of accuracy, precision and sensitivity handling and economic footprint. The designs are pipelined to meet 1 Ghz frequency in 45nm ASIC with extensively optimised area and power
+•Hardware design of synaptic accelerator by taking realistic, computationally extensive intra-neuronal parameters in floating point single &double precision & recently developed Posit unum number system (32 bit word with 4 bit exponent size)
+•Comparative study in terms of accuracy, precision, sensitivity handling and silicon footprint. The designs are deep pipelined and meets 1Ghz frequency in 45nm ASIC with extensively optimised area and power
 
 # Directory Structure
 
@@ -28,8 +27,8 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 
 
 - .
-   - __Draft__
-     - [NanoSys\_Draft.pdf](Draft/NanoSys_Draft.pdf)
+   - __Pre-Print__
+     - [Preprint](Pre-Print/Preprint.pdf)
    - __IEEE\_32__
      - __RTL__
        - [IEEE32\_design.sv](IEEE_32/RTL/IEEE32_design.sv)
@@ -90,4 +89,11 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # 1) Run the *.sh script present in Utlity folder. It will compile + simulate RTL+TB and generate log file in Simulation folder. Will run in Windows 32/64 bit OS in batch mode.
 ! Note- Change the Questasim executables(vlib, vlog, vsim) paths incase of Ubuntu or any Unix system to the respective paths where they get installed.
 # 2) Execute the *.py/*.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
+```
+
+##### Note
+Publication has been accepted in [VLSID_2021](https://embeddedandvlsidesignconference.org/)
+
+```diff
+@@ All copyrights reserved @@
 ```
