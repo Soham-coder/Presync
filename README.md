@@ -17,9 +17,9 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 
 # Hardware
 
-•Hardware design of synaptic accelerator by taking realistic, computationally extensive intra-neuronal parameters in floating point single &double precision & recently developed Posit unum number system (32 bit word with 4 bit exponent size)
+•Hardware design of synaptic data-flow accelerator by taking realistic, computationally extensive intra-neuronal parameters in floating point single & double precision & recently developed Posit unum number system (32 bit word with 4 bit exponent size)
 
-•Comparative study in terms of accuracy, precision, sensitivity handling and silicon footprint. The designs are deep pipelined and meets 1Ghz frequency in 45nm ASIC with extensively optimised area and power
+•
 
 # Directory Structure
 
