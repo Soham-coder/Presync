@@ -93,7 +93,7 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 ```
 
 ##### Note
-Publication has been accepted in [VLSID_2021](https://embeddedandvlsidesignconference.org/)
+Publication in [VLSID_2021](https://embeddedandvlsidesignconference.org/). Selected among top five papers. Awaiting further results.
 
 ```diff
 @@ All copyrights reserved @@
