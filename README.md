@@ -92,9 +92,14 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # 2) Execute the *.py/*.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
 ```
 
-##### Note
-Publication has been accepted in [VLSID_2021](https://embeddedandvlsidesignconference.org/)
-
-```diff
-@@ All copyrights reserved @@
+##### Copyright & Citations
+```
+@inproceedings{2021 34th International Conference on VLSI Design and 2021 20th International Conference on Embedded Systems (VLSID),
+    title     = {PreSyNC: Hardware realization of the Presynaptic Region of a Biologically Extensive Neuronal Circuitry},
+    author    = {Rounak Chatterjee; Souradeep Chowdhury; Soham Mondal; Arnab Raha; Janet Paluh; Amitava Mukherjee},
+    publisher = {IEEE},
+	DOI       = https://doi.org/10.1109/VLSID51830.2021.00044
+	URL       = https://ieeexplore.ieee.org/document/9407457
+    year      = {2021}
+} 
 ```
