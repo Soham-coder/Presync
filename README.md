@@ -3,7 +3,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=Soham-coder-Presync)
 
 # Title
-PreSyNC: Hardware realization of the Presynaptic Region of a Biologically Extensive Neuronal Circuitry
+**PreSyNC: Hardware realization of the Presynaptic Region of a Biologically Extensive Neuronal Circuitry**
 
 ```diff
 @@ Abstract—@@
@@ -92,7 +92,7 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # 2) Execute the *.py/*.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
 ```
 
-<<<<<<< HEAD
+
 ##### Copyright & Citations
 ```
 @inproceedings{2021 34th International Conference on VLSI Design and 2021 20th International Conference on Embedded Systems (VLSID),
@@ -104,11 +104,4 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
     year      = {2021}
 } 
 ```
-=======
-##### Note
-Publication in [VLSID_2021](https://embeddedandvlsidesignconference.org/). Selected among top five papers. Awaiting further results.
 
-```diff
-@@ All copyrights reserved @@
-```
->>>>>>> ba52fec9e6acb42fd296466d33a4efc7c641482b
