@@ -17,9 +17,9 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 
 # Hardware
 
-•Hardware design of synaptic accelerator by taking realistic, computationally extensive intra-neuronal parameters in floating point single &double precision & recently developed Posit unum number system (32 bit word with 4 bit exponent size)
+• Hardware design of synaptic data-flow accelerator by taking realistic, computationally extensive intra-neuronal parameters in floating point single & double precision & recently developed Posit unum number system (32 bit word with 4 bit exponent size)
 
-•Comparative study in terms of accuracy, precision, sensitivity handling and silicon footprint. The designs are deep pipelined and meets 1Ghz frequency in 45nm ASIC with extensively optimised area and power
+• Comparative study in terms of accuracy, precision, sensitivity handling and silicon footprint. The designs are deep pipelined and meets 1Ghz frequency in 45nm ASIC with extensively optimised area and powe
 
 # Directory Structure
 
@@ -92,6 +92,7 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
 # 2) Execute the *.py/*.cpp file present in Utility folder to generate .csv or .txt file which will contain converted results from binary/hexadecimal to accurate decimals.  
 ```
 
+<<<<<<< HEAD
 ##### Copyright & Citations
 ```
 @inproceedings{2021 34th International Conference on VLSI Design and 2021 20th International Conference on Embedded Systems (VLSID),
@@ -103,3 +104,11 @@ technology where they all operate at a minimum frequency of approximately 1GHz. 
     year      = {2021}
 } 
 ```
+=======
+##### Note
+Publication in [VLSID_2021](https://embeddedandvlsidesignconference.org/). Selected among top five papers. Awaiting further results.
+
+```diff
+@@ All copyrights reserved @@
+```
+>>>>>>> ba52fec9e6acb42fd296466d33a4efc7c641482b
